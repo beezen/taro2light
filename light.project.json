@@ -1,0 +1,6 @@
+{
+    "prject":"miniprogram",
+    "type":"miniprogram",
+    "dist":"build",
+    "plugins":["miniprogram2"]
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "allowJs": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "stripInternal": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "exclude": ["node_modules", "dist"],
+    "compileOnSave": false,
+    "include": ["./src/**/*"]
+  }
+}

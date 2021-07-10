@@ -1,0 +1,45 @@
+{
+  "name": "taro2light",
+  "version": "1.0.0",
+  "private": true,
+  "description": "demo",
+  "templateInfo": {
+    "name": "vuex",
+    "typescript": false,
+    "css": "less"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch ",
+    "dev:light": "cd dist/light && light release -wb 3000",
+    "build:light": "cd dist/light && light release -p"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/runtime": "3.2.9",
+    "@tarojs/taro": "3.2.9",
+    "@tarojs/components": "3.2.9",
+    "vuex": "^3.0.0",
+    "vue-template-compiler": "^2.5.0",
+    "vue": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.6",
+    "@tarojs/mini-runner": "3.2.9",
+    "@tarojs/webpack-runner": "3.2.9",
+    "@babel/core": "^7.8.0",
+    "babel-preset-taro": "3.2.9",
+    "vue-loader": "^15.9.2",
+    "eslint-plugin-vue": "^6.x",
+    "eslint-config-taro": "3.2.9",
+    "eslint": "^6.8.0",
+    "stylelint": "9.3.0"
+  }
+}
