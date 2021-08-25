@@ -77,8 +77,8 @@ const config = {
 第一步：运行 Taro 项目。
 
 ```bash
-yarn dev
-# 或 npm run dev
+yarn dev:weapp
+# 或 npm run dev:weapp
 ```
 
 第二步：在 Taro 输出小程序的位置下 (例：`dist/light`) 运行 Light 监听。
