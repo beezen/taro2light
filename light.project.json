@@ -1,6 +1,7 @@
 {
-    "prject":"miniprogram",
-    "type":"miniprogram",
-    "dist":"build",
-    "plugins":["miniprogram2"]
+  "project": "miniprogram",
+  "version": "0.0.1",
+  "type": "miniprogram",
+  "dist": "build",
+  "plugins": ["miniprogram2"]
 }

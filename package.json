@@ -2,17 +2,18 @@
   "name": "taro2light",
   "version": "1.0.0",
   "private": true,
-  "description": "demo",
+  "description": "taro 框架开发 GMU 小程序项目脚手架",
   "templateInfo": {
     "name": "vuex",
     "typescript": false,
     "css": "less"
   },
   "scripts": {
-    "build:weapp": "taro build --type weapp",
+    "build:weapp": "taro build --type weapp ",
     "dev:weapp": "npm run build:weapp -- --watch ",
-    "dev:light": "cd dist/light && light release -wb 3000",
-    "build:light": "cd dist/light && light release -p"
+    "dev:light": "cd dist/light && light release -wb 3001",
+    "build:light": "cd dist/light && light release -p",
+    "prepare": "husky install"
   },
   "browserslist": [
     "last 3 versions",
@@ -23,23 +24,32 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@tarojs/components": "3.2.9",
     "@tarojs/runtime": "3.2.9",
     "@tarojs/taro": "3.2.9",
-    "@tarojs/components": "3.2.9",
-    "vuex": "^3.0.0",
+    "vue": "^2.5.0",
     "vue-template-compiler": "^2.5.0",
-    "vue": "^2.5.0"
+    "vuex": "^3.0.0"
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.13.6",
+    "@babel/core": "^7.8.0",
     "@tarojs/mini-runner": "3.2.9",
     "@tarojs/webpack-runner": "3.2.9",
-    "@babel/core": "^7.8.0",
+    "@types/webpack-env": "^1.13.6",
     "babel-preset-taro": "3.2.9",
-    "vue-loader": "^15.9.2",
-    "eslint-plugin-vue": "^6.x",
-    "eslint-config-taro": "3.2.9",
+    "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
-    "stylelint": "9.3.0"
+    "eslint-config-taro": "3.2.9",
+    "eslint-plugin-vue": "^6.x",
+    "husky": "^7.0.4",
+    "stylelint": "9.3.0",
+    "vue-loader": "^15.9.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

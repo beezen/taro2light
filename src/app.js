@@ -1,5 +1,8 @@
 import Vue from "vue";
 import "./app.less";
+try {
+  __base__.DEBUG_MODE = true;
+} catch (err) {}
 
 const App = {
   render(h) {

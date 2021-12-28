@@ -14,7 +14,7 @@ const config = {
     828: 1.81 / 2
   },
   sourceRoot: "src",
-  outputRoot: "dist/light/src",
+  outputRoot: "dist/light/src", // 可根据多端需求，进行多端参数配置
   plugins: [],
   alias: newAlias,
   defineConstants: {},
