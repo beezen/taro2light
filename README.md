@@ -86,3 +86,4 @@ const config = {
 - [十分钟了解微信小程序迁移到 GMU 小程序](https://www.dongbizhen.com/posts/54465/)
 - [Taro 开发教程](http://taro-docs.jd.com/taro/docs/vue)
 - [GMU 小程序开发指南](https://iknow.hs.net/site/jiguang/docView/home/25?docType=lib)
+- [多端统一开发框架 Taro 优秀学习资源汇总](https://github.com/NervJS/awesome-taro)
